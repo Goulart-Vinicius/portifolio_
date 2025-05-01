@@ -9,6 +9,10 @@
     --text-heading-1-mobile: 2.25rem;
     --text-heading-4-mobile: 1.5rem;
     --text-text-mobile: 1rem;
+
+    --text-heading-1-desktop: 3.5rem;
+    --text-heading-4-desktop: 2rem;
+    --text-text-desktop: 1.5rem;
 }
 
 body, #root {
