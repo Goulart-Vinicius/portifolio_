@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Sen:wght@400..800&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --font-sen: 'Sen', sans-serif;
+    --font-cantarell: 'Cantarell', sans-serif;
+
+    --text-heading-1-mobile: 2.25rem;
+    --text-heading-4-mobile: 1.5rem;
+    --text-text-mobile: 1rem;
+}
+
+body, #root {
+    height: 100vh;
+}
