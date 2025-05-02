@@ -36,8 +36,18 @@ const Navbar: React.FC = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/About" end>
-                        Sobre Mim
+                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/" end>
+                        Habilidades
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/" end>
+                        Projetos
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/" end>
+                        Contato
                     </NavLink>
                 </li>
             </ul>
@@ -56,13 +66,23 @@ const Navbar: React.FC = () => {
             {isOpen && (
                 <ul className="md:hidden flex flex-col justify-center items-center w-full ">
                     <li className="w-full">
-                        <NavLink className="active:bg-amber-400 w-full p-2 justify-end flex" to="/" end>
+                        <NavLink className="active:bg-amber-400 w-full p-2 justify-end flex transition" to="/" end>
                             Home
                         </NavLink>
                     </li>
                     <li className="w-full">
-                        <NavLink className="active:bg-amber-400 w-full p-2 justify-end flex" to="/About" end>
-                            Sobre Mim
+                        <NavLink className="active:bg-amber-400 h-full p-4 justify-end flex transition" to="/skills" end>
+                            Habilidades
+                        </NavLink>
+                    </li>
+                    <li className="w-full">
+                        <NavLink className="active:bg-amber-400 h-full p-4 justify-end flex transition" to="/" end>
+                            Projetos
+                        </NavLink>
+                    </li>
+                    <li className="w-full">
+                        <NavLink className="active:bg-amber-400 h-full p-4 justify-end flex transition  " to="/" end>
+                            Contato
                         </NavLink>
                     </li>
                 </ul>

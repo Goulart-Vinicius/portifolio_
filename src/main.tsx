@@ -4,7 +4,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import "./style.css";
 import App from './App.tsx'
 import Home from './pages/home/Home.tsx'
-import About from './pages/About.tsx'
+import Skills from "./pages/skills/Skills.tsx";
+
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -12,7 +13,7 @@ createRoot(document.getElementById('root')!).render(
             <Routes>
                 <Route path="/" element={<App/>}>
                     <Route index element={<Home/>}/>
-                    <Route path="/About" element={<About/>}/>
+                    <Route path="/skills" element={<Skills/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
