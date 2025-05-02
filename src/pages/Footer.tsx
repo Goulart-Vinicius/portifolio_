@@ -6,7 +6,7 @@ const Footer: FC = () => {
     return (
         <section
             className="px-5 py-12 font-cantarell text-text-mobile md:text-text-desktop bg-amber-300">
-            <div className="w-2/3 flex justify-center items-center flex-col md:m-auto gap-8">
+            <div className="md:w-2/3 flex justify-center items-center flex-col md:m-auto gap-8 w-full">
                 <ul className="flex justify-around items-center text-4xl md:justify-center gap-20">
                     <li>
                         <a 

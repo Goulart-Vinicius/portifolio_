@@ -107,14 +107,14 @@ const groups: string[] = ['FrontEnd', 'BackEnd', 'Banco de Dados', 'UI/UX', "Out
  */
 const SkillSection: FC = () => {
     return (
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5 bg-amber-300">
+        <section className="flex flex-col gap-6 p-5 bg-gray-950 ">
             {groups.map((group) => {
                 const filteredSkills = skills.filter((skill) => skill.tag === group);
                 return (
-                    <div key={group} className="mb-6">
-                        <h2 className="text-xl font-bold mb-4">{group}</h2>
+                    <div key={group} className="mb-6 ">
+                        <h2 className="text-xl font-bold mb-4 text-amber-400">{group}</h2>
                         {filteredSkills.length > 0 ? (
-                            <div className="grid gap-4">
+                            <div className="grid gap-4  grid-cols-1 md:grid-cols-3">
                                 {filteredSkills.map((skill) => (
                                     <CardSkill
                                         key={skill.title}

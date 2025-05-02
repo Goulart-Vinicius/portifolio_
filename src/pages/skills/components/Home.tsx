@@ -11,6 +11,7 @@ const Home: FC = () => {
              items-center
              text-heading-1-mobile
              md:text-heading-1-desktop
+             bg-amber-400
                 ">
             <h1>Habilidades</h1>
         </section>

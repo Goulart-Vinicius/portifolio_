@@ -1,4 +1,5 @@
 import {FC} from 'react';
+import {Link} from "react-router";
 
 /**
  * Um componente funcional que renderiza uma seção exibindo uma lista de tecnologias
@@ -34,12 +35,14 @@ const Skills: FC = () => {
                 <div className="flex gap-6 flex-col py-2">
 
                     <div>
-                        <h2 className="font-sen text-heading-4-mobile md:text-heading-4-desktop">Principais Tecnologias</h2>
+                        <h2 className="font-sen text-heading-4-mobile md:text-heading-4-desktop">Principais
+                            Tecnologias</h2>
                         <p className="text-text-mobile md:text-text-desktop">Domino Delphi 7, Firebird, PHP, Typescript,
                             React, MongoDB e GIT.</p>
                     </div>
                     <div className="">
-                        <h2 className="font-sen text-heading-4-mobile md:text-heading-4-desktop">Ferramentas Adicionais</h2>
+                        <h2 className="font-sen text-heading-4-mobile md:text-heading-4-desktop">Ferramentas
+                            Adicionais</h2>
                         <p className="text-text-mobile md:text-text-desktop">Utilizo GIT para versionamento e integração
                             de APIs em meus projetos.</p>
                     </div>
@@ -47,11 +50,15 @@ const Skills: FC = () => {
             </div>
 
             <div>
-                <button type="button"
-                        className="bg-transparent border-2 px-6 py-2.5 rounded-[6px] active:bg-amber-400 active:text-gray-900 transition
-                        text-text-mobile md:text-text-desktop">Ver
-                    mais
-                </button>
+                <Link to="/Skills">
+                    <button type="button"
+                            className="bg-transparent border-2 px-6 py-2.5 rounded-[6px] active:bg-amber-400
+                active:text-gray-900 transition text-text-mobile md:text-text-desktop cursor-pointer
+                hover:text-gray-900 hover:bg-amber-300
+                ">
+                        Ver mais
+                    </button>
+                </Link>
             </div>
 
         </section>
