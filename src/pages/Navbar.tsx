@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/" end>
+                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/skills" end>
                         Habilidades
                     </NavLink>
                 </li>
