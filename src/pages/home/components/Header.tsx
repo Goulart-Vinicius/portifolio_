@@ -1,5 +1,7 @@
 import {FC} from 'react'
 
+import cv from "../../../assets/CV vinicius.pdf"
+
 const Header: FC = () => {
     return (
         <header className="
@@ -25,15 +27,18 @@ const Header: FC = () => {
             </div>
 
             <div className="flex justify-center items-center gap-4 font-bold md:font-medium">
-                <button
-                    className="px-6 py-2.5 bg-amber-300 rounded-[6px] active:bg-amber-400 cursor-pointer hover:bg-amber-400 ">Ver
-                    Projetos
-                </button>
-                <button
+                {/*<button*/}
+                {/*    className="px-6 py-2.5 bg-amber-300 rounded-[6px] active:bg-amber-400 cursor-pointer hover:bg-amber-400 ">Ver*/}
+                {/*    Projetos*/}
+                {/*</button>*/}
+                <a
                     className=" transition-all px-6 py-2.5 bg-transparent rounded-[6px] border-2 active:bg-amber-400 cursor-pointer
-                     hover:bg-amber-400 text-white active:text-gray-900">
+                     hover:bg-amber-400 text-white active:text-gray-900"
+                    href={cv}
+                    download="CV_Vinicius.pdf"
+                >
                     Baixar CV
-                </button>
+                </a>
             </div>
         </header>
     )
