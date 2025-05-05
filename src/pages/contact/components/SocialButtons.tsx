@@ -2,12 +2,9 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {
-    faFacebook,
-    faTwitter,
     faInstagram,
     faLinkedin,
-    faYoutube,
-    faTiktok, faGithub
+    faGithub
 } from '@fortawesome/free-brands-svg-icons';
 
 interface SocialButtonProps {
