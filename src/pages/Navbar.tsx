@@ -40,13 +40,13 @@ const Navbar: React.FC = () => {
                         Habilidades
                     </NavLink>
                 </li>
+                {/*<li>*/}
+                {/*    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/" end>*/}
+                {/*        Projetos*/}
+                {/*    </NavLink>*/}
+                {/*</li>*/}
                 <li>
-                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/" end>
-                        Projetos
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/" end>
+                    <NavLink className="hover:bg-amber-400 h-full p-4 justify-end flex" to="/contact" end>
                         Contato
                     </NavLink>
                 </li>
@@ -75,13 +75,13 @@ const Navbar: React.FC = () => {
                             Habilidades
                         </NavLink>
                     </li>
+                    {/*<li className="w-full">*/}
+                    {/*    <NavLink className="active:bg-amber-400 h-full p-4 justify-end flex transition" to="/" end>*/}
+                    {/*        Projetos*/}
+                    {/*    </NavLink>*/}
+                    {/*</li>*/}
                     <li className="w-full">
-                        <NavLink className="active:bg-amber-400 h-full p-4 justify-end flex transition" to="/" end>
-                            Projetos
-                        </NavLink>
-                    </li>
-                    <li className="w-full">
-                        <NavLink className="active:bg-amber-400 h-full p-4 justify-end flex transition  " to="/" end>
+                        <NavLink className="active:bg-amber-400 h-full p-4 justify-end flex transition  " to="/contact" end>
                             Contato
                         </NavLink>
                     </li>
